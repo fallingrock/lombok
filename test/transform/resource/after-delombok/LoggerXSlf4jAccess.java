@@ -5,13 +5,6 @@ class LoggerXSlf4jAccessPublic {
 	public static final org.slf4j.ext.XLogger log = org.slf4j.ext.XLoggerFactory.getXLogger(LoggerXSlf4jAccessPublic.class);
 
 }
-@SuppressWarnings("deprecation")
-class LoggerXSlf4jAccessModule {
-	@java.lang.SuppressWarnings("all")
-	@lombok.Generated
-	static final org.slf4j.ext.XLogger log = org.slf4j.ext.XLoggerFactory.getXLogger(LoggerXSlf4jAccessModule.class);
-
-}
 class LoggerXSlf4jAccessProtected {
 	@java.lang.SuppressWarnings("all")
 	@lombok.Generated

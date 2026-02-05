@@ -9,15 +9,6 @@ import lombok.extern.slf4j.XSlf4j;
     super();
   }
 }
-@SuppressWarnings("deprecation") @XSlf4j(access = AccessLevel.MODULE) class LoggerXSlf4jAccessModule {
-  static final @java.lang.SuppressWarnings("all") @lombok.Generated org.slf4j.ext.XLogger log = org.slf4j.ext.XLoggerFactory.getXLogger(LoggerXSlf4jAccessModule.class);
-  <clinit>() {
-  }
-
-  LoggerXSlf4jAccessModule() {
-    super();
-  }
-}
 @XSlf4j(access = AccessLevel.PROTECTED) class LoggerXSlf4jAccessProtected {
   protected static final @java.lang.SuppressWarnings("all") @lombok.Generated org.slf4j.ext.XLogger log = org.slf4j.ext.XLoggerFactory.getXLogger(LoggerXSlf4jAccessProtected.class);
   <clinit>() {

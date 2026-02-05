@@ -5,11 +5,6 @@ import lombok.extern.flogger.Flogger;
 class LoggerFloggerAccessPublic {
 }
 
-@SuppressWarnings("deprecation")
-@Flogger(access = AccessLevel.MODULE)
-class LoggerFloggerAccessModule {
-}
-
 @Flogger(access = AccessLevel.PROTECTED)
 class LoggerFloggerAccessProtected {
 }

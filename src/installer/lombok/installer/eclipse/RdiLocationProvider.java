@@ -33,7 +33,7 @@ public class RdiLocationProvider extends EclipseProductLocationProvider {
 			"IBM Rational Developer for i",
 			"rdi",
 			"rdi",
-			RdiLocationProvider.class.getResource("eclipse.png"),
+			RdiLocationProvider.class.getResource("rdi.png"),
 			Collections.<String>emptySet()
 	);
 	

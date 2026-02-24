@@ -29,15 +29,20 @@ import lombok.spi.Provides;
 @Provides(IdeLocationProvider.class)
 public class RdiLocationProvider extends EclipseProductLocationProvider {
 	
-	private static final EclipseProductDescriptor ECLIPSE = new StandardProductDescriptor(
+	private static final EclipseProductDescriptor RDI = new StandardProductDescriptor(
 			"IBM Rational Developer for i",
 			"rdi",
 			"rdi",
 			RdiLocationProvider.class.getResource("rdi.png"),
 			Collections.<String>emptySet()
-	);
+	) {
+        @Override
+        public String getMacAppName() {
+            return getProductName() + ".app";
+        }
+    };
 	
 	public RdiLocationProvider() {
-		super(ECLIPSE);
+		super(RDI);
 	}
 }
